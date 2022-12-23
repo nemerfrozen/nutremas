@@ -9,3 +9,10 @@ In the project directory, you can run:
 ### `yarn`
 ### `yarn start`
 
+## Back
+
+### `cd Backend`
+
+### `npm i`
+
+### `node index.js`
