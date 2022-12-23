@@ -3,10 +3,10 @@ const platos = [
     {
         "name": "cafeconleche",
         "calorias": 38,
-        "proteina": 1.7,
+        proteina: 1.7,
         "carbohidratos": 2.5,
         "grasas": 2.3,
-        "bedida": true,
+        bedida: true,
         "plato": [
             "desayuno",
             "merienda"
@@ -130,7 +130,7 @@ const platos = [
     },
 
     {
-        "name": "cocacolazero",
+        "name": cocacolazero,
         "calorias": 1,
         "proteinas": 0.1,
         "carbohidratos": 0.1,
@@ -142,8 +142,8 @@ const platos = [
         ],
         "enquemomentosecome": [
             {
-                "bebida": "delacomida",
-                "bebida": "delacena",
+                "bebida": delacomida,
+                "bebida": delacena,
             }
         ],
         "origen": [
@@ -153,7 +153,7 @@ const platos = [
     },
 
     {
-        "name": "agua",
+        "name": agua,
         "calorias": 1,
         "proteinas": 0.1,
         "carbohidratos": 0.1,
@@ -165,8 +165,8 @@ const platos = [
         ],
         "enquemomentosecome": [
             {
-                "bebida": "delacomida",
-                "bebida": "delacena",
+                "bebida": delacomida,
+                "bebida": delacena,
             }
         ],
         "origen": [
@@ -176,7 +176,7 @@ const platos = [
     },
 
     {
-        "name": "tortitasdeavena",
+        "name": tortitasdeavena,
         "calorias": 208,
         "proteinas": 5.5,
         "carbohidratos": 31.4,
@@ -191,7 +191,7 @@ const platos = [
     },
 
     {
-        "name": "pantumaca",
+        "name": pantumaca,
         "calorias": 107,
         "proteinas": 2.7,
         "carbohidratos": 13.9,
@@ -209,7 +209,7 @@ const platos = [
     },
 
     {
-        "name": "galletasdearrozintegral",
+        "name": galletasdearrozintegral,
         "calorias": 307,
         "proteinas": 8.7,
         "carbohidratos": 80.9,
@@ -227,7 +227,7 @@ const platos = [
     },
 
     {
-        "name": "panconmantequilla",
+        "name": panconmantequilla,
         "calorias": 347,
         "proteinas": 9.7,
         "carbohidratos": 39.9,
@@ -239,7 +239,7 @@ const platos = [
     },
 
     {
-        "name": "avenaconperaymiel",
+        "name": avenaconperaymiel,
         "calorias": 82,
         "proteinas": 2.9,
         "carbohidratos": 15.9,
@@ -257,7 +257,7 @@ const platos = [
     },
 
     {
-        "name": "avenayogurtychia",
+        "name": avenayogurtychia,
         "calorias": 105,
         "proteinas": 5.1,
         "carbohidratos": 13.9,
@@ -273,7 +273,7 @@ const platos = [
 
 
     {
-        "name": "aavenaconplatano",
+        "name": aavenaconplatano,
         "calorias": 190,
         "proteinas": 5.4,
         "carbohidratos": 23.1,
@@ -291,7 +291,7 @@ const platos = [
     },
 
     {
-        "name": "panconhummusyaguacate",
+        "name": panconhummusyaguacate,
         "calorias": 90,
         "proteinas": 3.3,
         "carbohidratos": 16.9,
@@ -309,7 +309,7 @@ const platos = [
     },
 
     {
-        "name": "panconaguacateytomate",
+        "name": panconaguacateytomate,
         "calorias": 194,
         "proteinas": 4.3,
         "carbohidratos": 21.9,
@@ -327,7 +327,7 @@ const platos = [
     },
 
     {
-        "name": "panconatun",
+        "name": panconatun,
         "calorias": 206,
         "proteinas": 17,
         "carbohidratos": 13.9,
@@ -342,7 +342,7 @@ const platos = [
     },
 
     {
-        "name": "panconpavoytomate",
+        "name": panconpavoytomate,
         "calorias": 161,
         "proteinas": 15.2,
         "carbohidratos": 18.9,
@@ -357,7 +357,7 @@ const platos = [
     },
 
     {
-        "name": "quesobatido",
+        "name": quesobatido,
         "calorias": 46,
         "proteinas": 8.1,
         "carbohidratos": 3.5,
@@ -369,7 +369,7 @@ const platos = [
     },
 
     {
-        "name": "uvas",
+        "name": uvas,
         "calorias": 69,
         "proteinas": 1,
         "carbohidratos": 18,
@@ -387,7 +387,7 @@ const platos = [
     },
 
     {
-        "name": "pomelo",
+        "name": pomelo,
         "calorias": 42,
         "proteinas": 1,
         "carbohidratos": 11,
@@ -405,7 +405,7 @@ const platos = [
     },
 
     {
-        "name": "platano",
+        "name": platano,
         "calorias": 89,
         "proteinas": 1,
         "carbohidratos": 23,
@@ -423,7 +423,7 @@ const platos = [
     },
 
     {
-        "name": "naranja",
+        "name": naranja,
         "calorias": 49,
         "proteinas": 1,
         "carbohidratos": 12,
@@ -441,7 +441,7 @@ const platos = [
     },
 
     {
-        "name": "melon",
+        "name": melon,
         "calorias": 34,
         "proteinas": 1,
         "carbohidratos": 8,
@@ -459,7 +459,7 @@ const platos = [
     },
 
     {
-        "name": "manzana",
+        "name": manzana,
         "calorias": 52,
         "proteinas": 1,
         "carbohidratos": 14,
@@ -477,7 +477,7 @@ const platos = [
     },
 
     {
-        "name": "pera",
+        "name": pera,
         "calorias": 57,
         "proteinas": 1,
         "carbohidratos": 15,
@@ -495,7 +495,7 @@ const platos = [
     },
 
     {
-        "name": "yogurtnatural",
+        "name": yogurtnatural,
         "calorias": 61,
         "proteinas": 3,
         "carbohidratos": 5,
@@ -510,7 +510,7 @@ const platos = [
     },
 
     {
-        "name": "yogurtdesnatado",
+        "name": yogurtdesnatado,
         "calorias": 34,
         "proteinas": 4,
         "carbohidratos": 5,
@@ -525,7 +525,7 @@ const platos = [
     },
 
     {
-        "name": "arroznegro",
+        "name": arroznegro,
         "calorias": 107,
         "proteinas": 5.5,
         "carbohidratos": 15.3,
@@ -537,7 +537,7 @@ const platos = [
     },
 
     {
-        "name": "paella",
+        "name": paella,
         "calorias": 91,
         "proteinas": 8.5,
         "carbohidratos": 9.3,
@@ -549,7 +549,7 @@ const platos = [
     },
 
     {
-        "name": "arrozabanda",
+        "name": arrozabanda,
         "calorias": 142,
         "proteinas": 5.5,
         "carbohidratos": 18.3,
@@ -561,7 +561,7 @@ const platos = [
     },
 
     {
-        "name": "lasañadeatun",
+        "name": lasañadeatun,
         "calorias": 142,
         "proteinas": 10.5,
         "carbohidratos": 17.3,
@@ -576,7 +576,7 @@ const platos = [
     },
 
     {
-        "name": "pistomanchego",
+        "name": pistomanchego,
         "calorias": 44,
         "proteinas": 1.0,
         "carbohidratos": 5.2,
@@ -594,7 +594,7 @@ const platos = [
     },
 
     {
-        "name": "albondigas",
+        "name": albondigas,
         "calorias": 300,
         "proteinas": 20.2,
         "carbohidratos": 12.8,
@@ -609,7 +609,7 @@ const platos = [
     },
 
     {
-        "name": "polloalcurry",
+        "name": polloalcurry,
         "calorias": 90,
         "proteinas": 6.9,
         "carbohidratos": 4.3,
@@ -621,7 +621,7 @@ const platos = [
     },
 
     {
-        "name": "polloalaplancha",
+        "name": polloalaplancha,
         "calorias": 111,
         "proteinas": 22.1,
         "carbohidratos": 1.3,
@@ -636,7 +636,7 @@ const platos = [
     },
 
     {
-        "name": "sopadebrocoli",
+        "name": sopadebrocoli,
         "calorias": 65,
         "proteinas": 2.0,
         "carbohidratos": 4.8,
@@ -654,7 +654,7 @@ const platos = [
     },
 
     {
-        "name": "sopadecebolla",
+        "name": sopadecebolla,
         "calorias": 110,
         "proteinas": 3.9,
         "carbohidratos": 11.7,
@@ -669,7 +669,7 @@ const platos = [
     },
 
     {
-        "name": "gulasalajillo",
+        "name": gulasalajillo,
         "calorias": 168,
         "proteinas": 13.1,
         "carbohidratos": 5.3,
@@ -684,7 +684,7 @@ const platos = [
     },
 
     {
-        "name": "arrozconhuevo",
+        "name": arrozconhuevo,
         "calorias": 144,
         "proteinas": 6.1,
         "carbohidratos": 17.3,
@@ -696,7 +696,7 @@ const platos = [
     },
 
     {
-        "name": "patatasalopobre",
+        "name": patatasalopobre,
         "calorias": 117,
         "proteinas": 1.6,
         "carbohidratos": 15.8,
@@ -714,7 +714,7 @@ const platos = [
     },
 
     {
-        "name": "puredecalabacin",
+        "name": puredecalabacin,
         "calorias": 53,
         "proteinas": 1.2,
         "carbohidratos": 8.5,
@@ -732,7 +732,7 @@ const platos = [
     },
 
     {
-        "name": "tortilladepatata",
+        "name": tortilladepatata,
         "calorias": 116,
         "proteinas": 4.9,
         "carbohidratos": 11.5,
@@ -747,7 +747,7 @@ const platos = [
     },
 
     {
-        "name": "huevosrevueltos",
+        "name": huevosrevueltos,
         "calorias": 103,
         "proteinas": 12.6,
         "carbohidratos": 0.6,
@@ -762,7 +762,7 @@ const platos = [
     },
 
     {
-        "name": "tabuledequinoa",
+        "name": tabuledequinoa,
         "calorias": 102,
         "proteinas": 2.1,
         "carbohidratos": 11.4,
@@ -780,7 +780,7 @@ const platos = [
     },
 
     {
-        "name": "ensaladaclasica",
+        "name": ensaladaclasica,
         "calorias": 46,
         "proteinas": 1.1,
         "carbohidratos": 5.8,
@@ -798,7 +798,7 @@ const platos = [
     },
 
     {
-        "name": "tortillafrancesa",
+        "name": tortillafrancesa,
         "calorias": 110,
         "proteinas": 7.1,
         "carbohidratos": 2.4,
@@ -813,7 +813,7 @@ const platos = [
     },
 
     {
-        "name": "ensaladadepasta",
+        "name": ensaladadepasta,
         "calorias": 114,
         "proteinas": 3.3,
         "carbohidratos": 16.9,
@@ -831,7 +831,7 @@ const platos = [
     },
 
     {
-        "name": "marmitako",
+        "name": marmitako,
         "calorias": 96,
         "proteinas": 4.7,
         "carbohidratos": 7.6,
@@ -843,7 +843,7 @@ const platos = [
     },
 
     {
-        "name": "lasañadeespinacas",
+        "name": lasañadeespinacas,
         "calorias": 134,
         "proteinas": 8.4,
         "carbohidratos": 25.2,
@@ -858,7 +858,7 @@ const platos = [
     },
 
     {
-        "name": "lentejas",
+        "name": lentejas,
         "calorias": 99,
         "proteinas": 4.4,
         "carbohidratos": 9.8,
@@ -870,7 +870,7 @@ const platos = [
     },
 
     {
-        "name": "garbanzosconpatatas",
+        "name": garbanzosconpatatas,
         "calorias": 124,
         "proteinas": 5.9,
         "carbohidratos": 19.3,
@@ -885,7 +885,7 @@ const platos = [
     },
 
     {
-        "name": "ensaladadequinoa",
+        "name": ensaladadequinoa,
         "calorias": 100,
         "proteinas": 2.9,
         "carbohidratos": 15.3,
@@ -903,7 +903,7 @@ const platos = [
     },
 
     {
-        "name": "brochetaseitan",
+        "name": brochetaseitan,
         "calorias": 179,
         "proteinas": 31.9,
         "carbohidratos": 19.3,
@@ -921,7 +921,7 @@ const platos = [
     },
 
     {
-        "name": "hamburguesadegarbanzo",
+        "name": hamburguesadegarbanzo,
         "calorias": 149,
         "proteinas": 9.9,
         "carbohidratos": 29.3,
@@ -939,7 +939,7 @@ const platos = [
     },
 
     {
-        "name": "arrozconverduras",
+        "name": arrozconverduras,
         "calorias": 119,
         "proteinas": 3.9,
         "carbohidratos": 18.3,
@@ -957,7 +957,7 @@ const platos = [
     },
 
     {
-        "name": "pastalpesto",
+        "name": pastalpesto,
         "calorias": 234,
         "proteinas": 6.5,
         "carbohidratos": 22.8,
@@ -969,7 +969,7 @@ const platos = [
     },
 
     {
-        "name": "pastabolognesa",
+        "name": pastabolognesa,
         "calorias": 144,
         "proteinas": 6.4,
         "carbohidratos": 11.8,
@@ -981,7 +981,7 @@ const platos = [
     },
 
     {
-        "name": "pastaconberengenaytomate",
+        "name": pastaconberengenaytomate,
         "calorias": 98,
         "proteinas": 3.4,
         "carbohidratos": 17.9,
@@ -996,7 +996,7 @@ const platos = [
     },
 
     {
-        "name": "pastacontomateychampiñones",
+        "name": pastacontomateychampiñones,
         "calorias": 128,
         "proteinas": 4.8,
         "carbohidratos": 16.3,
@@ -1011,7 +1011,7 @@ const platos = [
     },
 
     {
-        "name": "tacosveganos",
+        "name": tacosveganos,
         "calorias": 113,
         "proteinas": 3.6,
         "carbohidratos": 16.4,
@@ -1029,7 +1029,7 @@ const platos = [
     },
 
     {
-        "name": "esparragostriguerosconaceite",
+        "name": esparragostriguerosconaceite,
         "calorias": 68,
         "proteinas": 2.5,
         "carbohidratos": 4.7,
@@ -1047,7 +1047,7 @@ const platos = [
     },
 
     {
-        "name": "berengenarellenadetomate",
+        "name": berengenarellenadetomate,
         "calorias": 55,
         "proteinas": 1.0,
         "carbohidratos": 9.1,
@@ -1065,7 +1065,7 @@ const platos = [
     },
 
     {
-        "name": "espinacasconcebolla",
+        "name": espinacasconcebolla,
         "calorias": 75,
         "proteinas": 3.6,
         "carbohidratos": 4.8,
@@ -1083,7 +1083,7 @@ const platos = [
     },
 
     {
-        "name": "hummus",
+        "name": hummus,
         "calorias": 175,
         "proteinas": 7.6,
         "carbohidratos": 23.8,
@@ -1101,7 +1101,7 @@ const platos = [
     },
 
     {
-        "name": "verdurassalteadas",
+        "name": verdurassalteadas,
         "calorias": 55,
         "proteinas": 3.6,
         "carbohidratos": 13.8,
@@ -1120,7 +1120,7 @@ const platos = [
 
 
     {
-        "name": "menestra",
+        "name": menestra,
         "calorias": 45,
         "proteinas": 3.6,
         "carbohidratos": 4,
@@ -1138,7 +1138,7 @@ const platos = [
     },
 
     {
-        "name": "salteadodesetas",
+        "name": salteadodesetas,
         "calorias": 26,
         "proteinas": 2.6,
         "carbohidratos": 1,
@@ -1156,7 +1156,7 @@ const platos = [
     },
 
     {
-        "name": "salteadodechampiñonesycebolla",
+        "name": salteadodechampiñonesycebolla,
         "calorias": 60,
         "proteinas": 2.0,
         "carbohidratos": 6.2,
@@ -1174,7 +1174,7 @@ const platos = [
     },
 
     {
-        "name": "salteadodevainasycebolla",
+        "name": salteadodevainasycebolla,
         "calorias": 65,
         "proteinas": 1.0,
         "carbohidratos": 7.2,
@@ -1192,7 +1192,7 @@ const platos = [
     },
 
     {
-        "name": "salteadovainasyalmendras",
+        "name": salteadovainasyalmendras,
         "calorias": 106,
         "proteinas": 3.5,
         "carbohidratos": 9.2,
@@ -1210,7 +1210,7 @@ const platos = [
     },
 
     {
-        "name": "polloconvainas",
+        "name": polloconvainas,
         "calorias": 115,
         "proteinas": 14.0,
         "carbohidratos": 4.2,
@@ -1225,7 +1225,7 @@ const platos = [
     },
 
     {
-        "name": "pechugadepavoalaplancha",
+        "name": pechugadepavoalaplancha,
         "calorias": 105,
         "proteinas": 17.0,
         "carbohidratos": 4.2,
@@ -1240,7 +1240,7 @@ const platos = [
     },
 
     {
-        "name": "terneraalaplancha",
+        "name": terneraalaplancha,
         "calorias": 110,
         "proteinas": 19.0,
         "carbohidratos": 1.2,
@@ -1255,7 +1255,7 @@ const platos = [
     },
 
     {
-        "name": "lubinaalhorno",
+        "name": lubinaalhorno,
         "calorias": 133,
         "proteinas": 21,
         "carbohidratos": 0.2,
@@ -1270,7 +1270,7 @@ const platos = [
     },
 
     {
-        "name": "bacalaoalhorno",
+        "name": bacalaoalhorno,
         "calorias": 122,
         "proteinas": 20.9,
         "carbohidratos": 0.4,
@@ -1285,7 +1285,7 @@ const platos = [
     },
 
     {
-        "name": "merluzaalaplancha",
+        "name": merluzaalaplancha,
         "calorias": 111,
         "proteinas": 21.3,
         "carbohidratos": 0.2,
@@ -1300,7 +1300,7 @@ const platos = [
     },
 
     {
-        "name": "meroalhorno",
+        "name": meroalhorno,
         "calorias": 122,
         "proteinas": 19.3,
         "carbohidratos": 0.2,
@@ -1315,7 +1315,7 @@ const platos = [
     },
 
     {
-        "name": "rapealhorno",
+        "name": rapealhorno,
         "calorias": 97,
         "proteinas": 19.3,
         "carbohidratos": 0.2,
@@ -1330,7 +1330,7 @@ const platos = [
     },
 
     {
-        "name": "lomoconpatatasalhorno",
+        "name": lomoconpatatasalhorno,
         "calorias": 152,
         "proteinas": 13.3,
         "carbohidratos": 9.2,
@@ -1345,7 +1345,7 @@ const platos = [
     },
 
     {
-        "name": "yogurtconkiwiyplatano",
+        "name": yogurtconkiwiyplatano,
         "calorias": 62,
         "proteinas": 2.3,
         "carbohidratos": 11.8,
@@ -1360,7 +1360,7 @@ const platos = [
     },
 
     {
-        "name": "arrozconpimientos",
+        "name": arrozconpimientos,
         "calorias": 78,
         "proteinas": 4.0,
         "carbohidratos": 9.3,
@@ -1375,7 +1375,7 @@ const platos = [
     },
 
     {
-        "name": "lentejasconarroz",
+        "name": lentejasconarroz,
         "calorias": 118,
         "proteinas": 4.4,
         "carbohidratos": 19.3,
@@ -1390,7 +1390,7 @@ const platos = [
     },
 
     {
-        "name": "puredepuerro",
+        "name": puredepuerro,
         "calorias": 67,
         "proteinas": 1.4,
         "carbohidratos": 8.3,
@@ -1408,7 +1408,7 @@ const platos = [
     },
 
     {
-        "name": "puredezanahoriaytomate",
+        "name": puredezanahoriaytomate,
         "calorias": 49,
         "proteinas": 1.4,
         "carbohidratos": 7.3,
@@ -1426,7 +1426,7 @@ const platos = [
     },
 
     {
-        "name": "ensaladadelentejas",
+        "name": ensaladadelentejas,
         "calorias": 82,
         "proteinas": 5.1,
         "carbohidratos": 12.3,
@@ -1441,7 +1441,7 @@ const platos = [
     },
 
     {
-        "name": "garbanzosconespinacas",
+        "name": garbanzosconespinacas,
         "calorias": 89,
         "proteinas": 4.8,
         "carbohidratos": 13.3,
@@ -1456,7 +1456,7 @@ const platos = [
     },
 
     {
-        "name": "alubiasconespinacas",
+        "name": alubiasconespinacas,
         "calorias": 83,
         "proteinas": 4.1,
         "carbohidratos": 14.3,
@@ -1471,7 +1471,7 @@ const platos = [
     },
 
     {
-        "name": "ensaladaalcachofasyaguacate",
+        "name": ensaladaalcachofasyaguacate,
         "calorias": 95,
         "proteinas": 1.7,
         "carbohidratos": 6.3,
@@ -1489,7 +1489,7 @@ const platos = [
     },
 
     {
-        "name": "patatarellena",
+        "name": patatarellena,
         "calorias": 153,
         "proteinas": 6.9,
         "carbohidratos": 16.5,
@@ -1504,7 +1504,7 @@ const platos = [
     },
 
     {
-        "name": "patatasconchorizo",
+        "name": patatasconchorizo,
         "calorias": 123,
         "proteinas": 3.9,
         "carbohidratos": 14.5,
@@ -1519,7 +1519,7 @@ const platos = [
     },
 
     {
-        "name": "tortillaconqueso",
+        "name": tortillaconqueso,
         "calorias": 209,
         "proteinas": 13.9,
         "carbohidratos": 11.5,
@@ -1534,7 +1534,7 @@ const platos = [
     },
 
     {
-        "name": "tortillaconespinacas",
+        "name": tortillaconespinacas,
         "calorias": 96,
         "proteinas": 6.9,
         "carbohidratos": 4.0,
@@ -1549,7 +1549,7 @@ const platos = [
     },
 
     {
-        "name": "estofadodeterneraconverduras",
+        "name": estofadodeterneraconverduras,
         "calorias": 91,
         "proteinas": 7.9,
         "carbohidratos": 4.5,
@@ -1561,7 +1561,7 @@ const platos = [
     },
 
     {
-        "name": "estofadodepollo",
+        "name": estofadodepollo,
         "calorias": 92,
         "proteinas": 4.9,
         "carbohidratos": 13.5,
@@ -1573,7 +1573,7 @@ const platos = [
     },
 
     {
-        "name": "estofadodecerdoconchampiñones",
+        "name": estofadodecerdoconchampiñones,
         "calorias": 100,
         "proteinas": 12.9,
         "carbohidratos": 4.5,
@@ -1585,7 +1585,7 @@ const platos = [
     },
 
     {
-        "name": "pulpoalagallega",
+        "name": pulpoalagallega,
         "calorias": 127,
         "proteinas": 13.4,
         "carbohidratos": 13.3,
@@ -1600,7 +1600,7 @@ const platos = [
     },
 
     {
-        "name": "croquetasdejamon",
+        "name": croquetasdejamon,
         "calorias": 323,
         "proteinas": 24.4,
         "carbohidratos": 22.3,
@@ -1615,7 +1615,7 @@ const platos = [
     },
 
     {
-        "name": "croquetasdechampiñones",
+        "name": croquetasdechampiñones,
         "calorias": 278,
         "proteinas": 20.4,
         "carbohidratos": 22.3,
@@ -1630,7 +1630,7 @@ const platos = [
     },
 
     {
-        "name": "ensaladadeespinacasynueces",
+        "name": ensaladadeespinacasynueces,
         "calorias": 155,
         "proteinas": 8.7,
         "carbohidratos": 7.3,
@@ -1648,7 +1648,7 @@ const platos = [
     },
 
     {
-        "name": "ensaladadeguisantesyzanahoria",
+        "name": ensaladadeguisantesyzanahoria,
         "calorias": 55,
         "proteinas": 3.7,
         "carbohidratos": 4.3,
@@ -1666,7 +1666,7 @@ const platos = [
     },
 
     {
-        "name": "calabazarellenadequinoaysetas",
+        "name": calabazarellenadequinoaysetas,
         "calorias": 69,
         "proteinas": 2.7,
         "carbohidratos": 8.3,
@@ -1684,7 +1684,7 @@ const platos = [
     },
 
     {
-        "name": "guisantesconpatatas",
+        "name": guisantesconpatatas,
         "calorias": 97,
         "proteinas": 5.7,
         "carbohidratos": 13.3,
@@ -1702,7 +1702,7 @@ const platos = [
     },
 
     {
-        "name": "guisantescontomate",
+        "name": guisantescontomate,
         "calorias": 72,
         "proteinas": 3.5,
         "carbohidratos": 11.3,
@@ -1720,7 +1720,7 @@ const platos = [
     },
 
     {
-        "name": "guisantesconjamon",
+        "name": guisantesconjamon,
         "calorias": 97,
         "proteinas": 5.8,
         "carbohidratos": 10.3,
