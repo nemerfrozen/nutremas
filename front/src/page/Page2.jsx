@@ -3,12 +3,14 @@ import React from 'react';
 function Page2(props) {
     const [peso, setPeso] = React.useState(0);
     const [altura, setAltura] = React.useState(0);
-    const [idade, setIdade] = React.useState(0);
+    const [edad, setEdad] = React.useState(0);
     const [sexo, setSexo] = React.useState('masculino');
-    const [tmb, setTmb] = React.useState(0);
+    const [ejercicio, setEjercicio] = React.useState(0);
+    const [calculoTMB, setCalculoTMB] = React.useState(0);
 
     const HandleChange = (e) => {
         const { name, value } = e.target;
+        console.log(name, value);
         switch (name) {
             case 'peso':
                 setPeso(value);
@@ -16,25 +18,56 @@ function Page2(props) {
             case 'altura':
                 setAltura(value);
                 break;
-            case 'idade':
-                setIdade(value);
+            case 'edad':
+                setEdad(value);
                 break;
             case 'sexo':
                 setSexo(value);
+                break;
+            case 'ejercicio':
+                setEjercicio(value);
                 break;
             default:
                 break;
         }
     }
 
-    const CalculateTMB = () => {
-        let tmb = 0;
+    const CalculateTMB = () => {     
+        
         if (sexo === 'masculino') {
-            tmb = (10 * peso) + (6.25 * altura) - (5 * idade) + 5;
+           let calc = ((10 * peso) + (6.25 * altura)) - (5 * edad) + 5;
+           console.log('masc', calc);
+            calculo2(calc);
+            
         } else {
-            tmb = (10 * peso) + (6.25 * altura) - (5 * idade) - 161;
+            let calc = (10 * peso) + (6.25 * altura) - (5 * edad) - 161;
+            console.log('fem', calc);
+            calculo2(calc); 
         }
-        setTmb(tmb);
+        
+        
+    }
+
+    const calculo2 = (tmb) => {        
+        switch (ejercicio) {
+            case 0:                
+                setCalculoTMB(tmb * 1.2);                
+                break;
+            case 1:
+                setCalculoTMB(tmb * 1.375);
+                break;
+            case 2:
+                setCalculoTMB(tmb * 1.55);
+                break;
+            case 3:
+                setCalculoTMB(tmb * 1.725);
+                break;
+            case 4:
+                setCalculoTMB(tmb * 1.9);
+                break;
+            default:
+                break;
+        } 
     }
 
 
@@ -44,9 +77,9 @@ function Page2(props) {
         <div className='card'>
             <h2 className='title'>Calcular TMB</h2>
             <div className="flex__center">
-                <input className='form__control' type="number" placeholder="Peso" onChange={HandleChange} />
-                <input className='form__control' type="number" placeholder="Altura" onChange={HandleChange} />
-                <input className='form__control' type="number" placeholder="Idade" onChange={HandleChange} />
+                <input className='form__control' name='peso' type="number" placeholder="Peso KG: 80" onChange={HandleChange} />
+                <input className='form__control' name='altura' type="number" placeholder="Altura cm: 150" onChange={HandleChange} />
+                <input className='form__control' name='edad' type="number" placeholder="Edad: 30" onChange={HandleChange} />
                
                
             </div>
@@ -67,7 +100,7 @@ function Page2(props) {
             </div>
             <button className='btn__primary' onClick={CalculateTMB}>Calcular TMB</button>
             <div className="result">
-                <h3>TMB: {tmb}</h3>
+                <h3>TMB: {calculoTMB}</h3>
             </div>
         </div>
     );
