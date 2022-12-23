@@ -35,7 +35,7 @@ function Page2(props) {
     const CalculateTMB = () => {     
         
         if (sexo === 'masculino') {
-           let calc = ((10 * peso) + (6.25 * altura)) - (5 * edad) + 5;
+           let calc = (10 * peso) + (6.25 * altura) - (5 * edad) + 5;
            console.log('masc', calc);
             calculo2(calc);
             
